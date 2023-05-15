@@ -111,8 +111,7 @@ public class IsNum
             // Третья полоса
             if(leds[3] == 1)
                 System.out.println(" *** ");
-    //        else
-    //            System.out.println("     ");
+
     
             // Четвертая полоса
             if(leds[4] == 1)
