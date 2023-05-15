@@ -10,8 +10,6 @@ public class Work implements Runnable
     public void run() 
     {
         IsNum isNum = new IsNum();
-//        System.out.println(" Before Edu ");
-//        isNum.is1();
         isNum.edu1();
         isNum.edu2();
         isNum.edu8();
@@ -22,11 +20,6 @@ public class Work implements Runnable
         isNum.test(led1);
         isNum.test(led7);
 
-//        System.out.println(" After Edu ");
-//        isNum.is1();
-//        isNum.is2();
-//        isNum.is8();
-        // isNum.printAll();
     }
 
     private void Sem()
